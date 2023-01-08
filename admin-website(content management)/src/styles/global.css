@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+@layer base {
+  html {
+    scrollbar-width: normal;
+    scrollbar-color: #777 #555;
+    scroll-behavior: smooth !important;
+  }
+
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fbfaf8;
+  }
+  html::-webkit-scrollbar {
+    width: 0.5vw;
+    height: 10px;
+  }
+  html::-webkit-scrollbar-thumb {
+    background-color: rgb(197, 197, 197);
+    border-radius: 5px;
+  }
+  html::-webkit-scrollbar-track {
+    background-color: #ececec;
+  }
+
+  input {
+    @apply bg-gray-100  h-10 p-2 w-full border rounded mb-6;
+  }
+  textarea {
+    @apply bg-gray-100  h-28 p-2 w-full;
+  }
+}
+
+.dashboard-grid {
+  grid-template-columns: 20% 1fr;
+}
+@media only screen and (max-width: 988px) {
+  .dashboard-grid {
+    grid-template-columns: 15% 1fr;
+  }
+}
+.product-grid {
+  grid-template-columns: 28% 1fr;
+}
+@media only screen and (max-width: 1013px) {
+  .product-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.word-break {
+  word-break: break-word;
+}

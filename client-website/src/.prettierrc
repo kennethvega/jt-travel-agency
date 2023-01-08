@@ -1,0 +1,10 @@
+{
+  "printWidth": 250,
+
+  "trailingComma": "all",
+  "singleQuote": true,
+  "semi": true,
+  "importOrder": ["^@react/(.*)$", "^@next/(.*)$", "<THIRD_PARTY_MODULES>", "^@ui/(.*)$", "^components/(.*)$", "next-seo.config", "^utils/(.*)$", "^assets/(.*)$", "^@fontsource/(.*)$", "^[./]"],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true
+}
