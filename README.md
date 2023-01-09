@@ -1,5 +1,5 @@
-# jt-travel-agency
-Compilation of codes from jt-toursandtravels
+
+# Compilation of codes from jt-toursandtravels
 ### DEMO: https://jt-toursandtravels.web.app/
 
 ### Individual Repositories
