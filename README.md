@@ -3,7 +3,7 @@ Compilation of codes from jt-toursandtravels
 ### DEMO: https://jt-toursandtravels.web.app/
 
 ### Individual Repositories
-1 Admin Website: https://github.com/kennethvega/JTtours-admin-front-end
+1. Admin Website: https://github.com/kennethvega/JTtours-admin-front-end
 2. Client Booking Website: https://github.com/kennethvega/jt-toursandtravels.com
 3. Backend API: https://github.com/kennethvega/JTtours-backend
 
