@@ -8,7 +8,7 @@
 3. Backend API: https://github.com/kennethvega/JTtours-backend
 
 ### Admin-Functionality:
-1.Login/Signup (JWT web tokens)
+1. Login/Signup (JWT web tokens)
 2. Create, Update,Delete, Read
 3. Change password
 4. Add employee/another user
