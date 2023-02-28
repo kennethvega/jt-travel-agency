@@ -9,7 +9,7 @@
 
 ### Admin-Functionality:
 1. Login/Signup (JWT web tokens)
-2. Create, Update,Delete, Read
+2. Create, Update, Delete, Read
 3. Change password
 4. Add employee/another user
 
@@ -31,5 +31,5 @@
 3. Redux Toolkit
 4. Node/Express
 5. MongoDB
-6. TailwindCss
-7. JWT web token
+6. TailwindCSS
+7. JWT
